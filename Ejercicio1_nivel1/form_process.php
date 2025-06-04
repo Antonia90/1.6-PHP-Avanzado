@@ -21,16 +21,10 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     exit();
 }
 
-$name = htmlspecialchars($name);
-$surname = htmlspecialchars($surname);
-$email = htmlspecialchars($email);
-$telephone = htmlspecialchars($telephone);
-
-
-$_SESSION["name"] = $name;
-$_SESSION["surname"] = $surname;
-$_SESSION["email"] = $email;
-$_SESSION["telephone"] = $telephone;
+$_SESSION["name"] = htmlspecialchars($name);
+$_SESSION["surname"] = htmlspecialchars($surname);
+$_SESSION["email"] = htmlspecialchars($email);
+$_SESSION["telephone"] = htmlspecialchars($telephone);
 
 
 header("Location: success.php");
