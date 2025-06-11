@@ -1,10 +1,10 @@
-# Ejercicios de PHP - Nivel 1
+# Ejercicios de PHP
 
-Este repositorio contiene tres ejercicios correspondientes al **Nivel 1** del curso/práctica de PHP. En cada uno se exploran conceptos fundamentales como formularios, variables superglobales, constantes mágicas y métodos mágicos.
+Este repositorio contiene ejercicios correspondientes a **PHP Avanzado** del curso de PHP. En cada uno se exploran conceptos fundamentales como formularios, variables superglobales, constantes mágicas y métodos mágicos.
 
 ---
 
-## 📂 Contenido
+## 📂 Nivel 1
 
 ### 📝 Ejercicio 1 – Formularios y variables superglobales
 
@@ -39,6 +39,22 @@ Este repositorio contiene tres ejercicios correspondientes al **Nivel 1** del cu
 - El ejercicio tiene como fin comprender cómo estos métodos permiten modificar el comportamiento de los objetos.
 
 📁 Carpeta: [`/Ejercicio3_nivel1`](./Ejercicio3_nivel1)
+
+---
+
+## 📂 Nivel 2
+
+### 📝 Ejercicio 1
+
+-Crea una clase que represente un recurso didáctico de esa especialidad.
+-Los recursos tendrán que tener un nombre, un tema (que sólo podrá ser PHP, CSS, HTML, SQL, Laravel) una URL y un tipo de recurso (Archivo, Artículo web, Vídeo).
+-Implementa tanto el tema como el tipo de recurso con enumbres.
+
+### 📝 Ejercicio 2
+
+-Implementa una clase Car que tenga información sobre un coche (marca, matrícula, tipos de combustible, velocidad máxima).
+-Además, implementa un Trait llamado Turbo que tenga un método boost() que muestre un mensaje "Se ha iniciado el turbo".
+-Usa este método desde la clase Car.
 
 ---
 
