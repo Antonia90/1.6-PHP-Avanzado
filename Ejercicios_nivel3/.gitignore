@@ -1,0 +1,25 @@
+# Ignorar dependencias de Composer
+/vendor/
+
+# Archivos de Composer que pueden regenerarse
+composer.lock
+
+# Archivos del sistema o del editor
+.DS_Store
+Thumbs.db
+
+# Configuración de VS Code
+.vscode/
+
+# Archivos de logs (si los generás)
+*.log
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+
+# Archivos de sistema XAMPP/WAMP (por si subís todo desde htdocs)
+*.db
+*.sqlite
+
