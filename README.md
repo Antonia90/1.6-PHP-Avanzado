@@ -56,6 +56,22 @@ Este repositorio contiene ejercicios correspondientes a **PHP Avanzado** del cur
 -Además, implementa un Trait llamado Turbo que tenga un método boost() que muestre un mensaje "Se ha iniciado el turbo".
 -Usa este método desde la clase Car.
 
+## 📂 Nivel 3
+
+### 🛠️ Ejercicio 1 – Instalación de librería con Composer
+
+- Se instala **Composer** globalmente en el sistema.
+- Se crea un nuevo proyecto y se inicializa con `composer init`.
+- Se investiga y selecciona una librería externa útil (en este caso, [`respect/validation`](https://respect-validation.readthedocs.io/en/latest/)) para validación de datos.
+- La librería se instala con el comando:
+
+  ```bash
+  composer require respect/validation
+
+### 🛠️ Ejercicio 2 – Implementación de la librería
+
+Crea un programa que utilice esta librería.
+
 ---
 
 ## 🚀 Cómo usar este repositorio
